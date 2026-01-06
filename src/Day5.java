@@ -45,7 +45,7 @@ public class Day5 {
             return input;
         }
         int mitte = input.length()/2;
-        return insertMiddle(input.substring(0,mitte),seps.substring(1))+seps.charAt(0)+insertMiddle(input.substring(mitte),seps.substring(1));
+        return insertMiddle(input.substring(0,mitte),seps.substring(1)) + seps.charAt(0) + insertMiddle(input.substring(mitte),seps.substring(1));
     }
 
     static void main(String[] args) {
